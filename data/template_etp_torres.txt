@@ -1,0 +1,26 @@
+ESTRUTURA DE REFERÊNCIA (PREFEITURA DE TORRES / SECRETARIA DE EDUCAÇÃO):
+
+CABEÇALHO:
+"PREFEITURA DE TORRES - SECRETARIA DE EDUCAÇÃO - Cuidando da gente"
+"ESTUDO TÉCNICO PRELIMINAR"
+
+SEÇÃO 1 - OBJETO:
+Texto padrão: "O presente documento visa planejar o FORNECIMENTO FUTURO E PARCELADO DE [NOME DO ITEM] PARA [DESTINO] DA REDE MUNICIPAL."
+
+SEÇÃO 2 - INFORMAÇÕES BÁSICAS:
+Responsáveis: [Nome do Secretário]
+Objetivo: "Demonstrar viabilidade técnica e econômica... subsidiar a tomada de decisão."
+
+SEÇÃO 3 - ESPECIFICAÇÃO TÉCNICA (TABELA):
+Deve conter: Item, Unidade, Quantidade, Descritivo Técnico Detalhado.
+(O descritivo deve ser impessoal e técnico, evitando indicar marcas).
+
+SEÇÃO 4 - FUNDAMENTAÇÃO LEGAL:
+Citar obrigatoriamente a Lei 14.133/2021, Artigo 18 e Artigo 40.
+
+SEÇÃO 5 - MATRIZ DE RISCOS:
+Formato: Risco | Probabilidade | Impacto | Mitigação
+Exemplo do padrão: "Entrega fora do prazo | Média | Alto | Multas e fiscalização"
+
+RODAPÉ:
+Data e Assinatura Digital.
