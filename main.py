@@ -52,15 +52,20 @@ async def health_check():
 
 
 if __name__ == "__main__":
+    import os
     import uvicorn
+    
+    # Get port from environment (Cloud Run sets PORT, default to 8000 for local dev)
+    port = int(os.getenv("PORT", 8000))
     
     logger.info("Starting FastAPI application...")
     logger.info(f"Mock AI mode: {MOCK_AI}")
+    logger.info(f"Server running on port {port}")
     
     uvicorn.run(
         "main:app",
         host="0.0.0.0",
-        port=8000,
+        port=port,
         reload=True,
         log_level="info"
     )
