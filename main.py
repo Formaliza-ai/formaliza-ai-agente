@@ -25,7 +25,10 @@ app = FastAPI(
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # URL do seu frontend  # Configure appropriately for production
+    allow_origins=[
+        "http://localhost:3000",  # Desenvolvimento local
+        "https://formaliza-ai-frontend-backup-619400236956.us-central1.run.app",  # Frontend em produção
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
